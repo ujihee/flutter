@@ -22,13 +22,13 @@ void main(){
   // 대입 연산자
   int x = 5;
 
-  x += 3;
-  print(x);
+  x += 3; // x = x + 3
+  print(x); // 8
 
-  x *= 2;
-  print(x);
+  x *= 2; // x = x * 2
+  print(x); // 16
 
-  // 증강 연산자
+  // 증감 연산자
   x++;
   print(x);
 
@@ -44,7 +44,7 @@ void main(){
 
   // 논리 연산자
   print(a > 1 && b > 1);
-  print(a > 10 || b < 11);
+  print(a < 10 || b < 11);
   print(!(a > b));
 
   // 삼항 연산자
